@@ -5,10 +5,10 @@ while cp < 10:
     if cp == 3:
         continue
 
+    print(f"Produto: {cp}")
+
     if cp == 7:
         break
-
-print(f"Produto: {cp}")
 
 # while decrescente de 4 até 1
 
