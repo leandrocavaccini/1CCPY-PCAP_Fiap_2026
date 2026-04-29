@@ -96,3 +96,14 @@ for i in range(1, numero + 1):
 print(f"A soma de 1 até {numero} é: {soma}")
 
 #EXERCÍCIO 08
+
+print("---Exibindo Divisores---")
+
+num = int(input("Até qual número você deseja exibir os divisores? "))
+
+for divisores in range(1, num + 1):
+    if num % divisores == 0:
+        print(divisores)
+
+#EXERCÍCIO 09
+
