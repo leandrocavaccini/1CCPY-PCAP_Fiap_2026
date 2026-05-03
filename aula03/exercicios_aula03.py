@@ -116,36 +116,25 @@ if salario_antes <= 280:
     porcentagem = 20 / 100
     salario_depois = salario_antes + (salario_antes * porcentagem)
     aumento = salario_depois - salario_antes
-    print(f"Salário antes do reajuste: {salario_antes:.2f}")
-    print(f"Porcentagem do reajuste: {porcentagem}")
-    print(f"Aumento após reajuste: {aumento:.2f}")
-    print(f"Salário depois do reajuste: {salario_depois:.2f}")
 
 elif salario_antes > 280 and salario_antes <= 700:
     porcentagem = 15 / 100
     salario_depois = salario_antes + (salario_antes * porcentagem)
     aumento = salario_depois - salario_antes
-    print(f"Salário antes do reajuste: {salario_antes:.2f}")
-    print(f"Porcentagem do reajuste: {porcentagem}")
-    print(f"Aumento após reajuste: {aumento:.2f}")
-    print(f"Salário depois do reajuste: {salario_depois:.2f}")
 
 elif salario_antes > 700 and salario_antes < 1500:
     porcentagem = 10 / 100
     salario_depois = salario_antes + (salario_antes * porcentagem)
     aumento = salario_depois - salario_antes
-    print(f"Salário antes do reajuste: {salario_antes:.2f}")
-    print(f"Porcentagem do reajuste: {porcentagem}")
-    print(f"Aumento após reajuste: {aumento:.2f}")
-    print(f"Salário depois do reajuste: {salario_depois:.2f}")
 
 elif salario_antes >= 1500:
     porcentagem = 5 / 100
     salario_depois = salario_antes + (salario_antes * porcentagem)
     aumento = salario_depois - salario_antes
-    print(f"Salário antes do reajuste: {salario_antes:.2f}")
-    print(f"Porcentagem do reajuste: {porcentagem}")
-    print(f"Aumento após reajuste: {aumento:.2f}")
-    print(f"Salário depois do reajuste: {salario_depois:.2f}")
+
+print(f"Salário antes do reajuste: {salario_antes:.2f}")
+print(f"Porcentagem do reajuste: {porcentagem}")
+print(f"Aumento após reajuste: {aumento:.2f}")
+print(f"Salário depois do reajuste: {salario_depois:.2f}")
 
 #EXERCÍCIO 09
