@@ -8,6 +8,8 @@ area_circulo = pi * (raio ** 2)
 
 print(f"A área do círculo é: {area_circulo:.2f}")
 
+print()
+
 #EXERCÍCIO 02
 
 print("---Conversão de temperaturas---")
@@ -16,6 +18,8 @@ temperatura_fahrenheint = float(input("Digite a temperatura em fahrenheit: "))
 temperatura_celcius = (temperatura_fahrenheint - 32) * 5/9
 
 print(f"A temperatura em Celcius é: {temperatura_celcius:.2f}")
+
+print()
 
 #EXERCÍCIO 03
 
@@ -27,6 +31,8 @@ canetas = float(input("Digite a quantidade de canetas compradas: "))
 total = (livros * 25) + (canetas * 5)
 
 print(f"O total gasto foi de: R$ {total}")
+
+print()
 
 #EXERCÍCIO 04
 
@@ -49,6 +55,8 @@ else:
     velocidade_media = (variacao_distancia / variacao_tempo)
     print(f"A Velocidade Média é: {velocidade_media:.2f}")
 
+print()
+
 #EXERCÍCIO 05
 
 print("---Calculadora de Média Aritmética---")
@@ -59,6 +67,8 @@ media = (nota1 + nota2) / 2
 
 print(f"A Média Aritmética final do aluno é: {media:.2f}")
 
+print()
+
 #EXERCÍCIO 06
 
 print("---Calculadora de Média Ponderada---")
@@ -68,6 +78,8 @@ nota2 = float(input("Digite a segunda nota: "))
 media_ponderada = (((nota1 * 4) + (nota2 * 6)) / 10)
 
 print(f"A Média Ponderada final do aluno é: {media_ponderada:.2f}")
+
+print()
 
 #EXERCÍCIO 07
 
@@ -84,6 +96,8 @@ valor_unitario_peca2 = float(input(f"Digite o valor unitário do(a) {peca2}: "))
 valor_final = (quantidade_peca1 * valor_unitario_peca1) + (quantidade_peca2 * valor_unitario_peca2)
 
 print(f"A sua compra de {quantidade_peca1} {peca1}(s) e {quantidade_peca2} {peca2}(s) foi um total de: R$ {valor_final:.2f}")
+
+print()
 
 #EXERCÍCIO 08
 

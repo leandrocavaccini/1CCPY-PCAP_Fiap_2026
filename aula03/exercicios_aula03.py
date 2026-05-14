@@ -9,6 +9,8 @@ if num % 2 == 0:
 else:
     print(f"{num} é Ímpar!")
 
+print()
+
 #EXERCÍCIO 03
 
 print("---Impressora de maior número---")
@@ -24,6 +26,8 @@ elif num2 > num1:
 
 elif num1 == num2:
     print("Os dois números são iguais!")
+
+print()
 
 #EXERCÍCIO 04
 
@@ -48,6 +52,8 @@ elif mediaA < 5:
     print(f"Sua média final é: {mediaA}")
     print("Reprovado")
 
+print()
+
 #EXERCÍCIO 05
 
 print("---Calculadora de Múltiplos---")
@@ -63,6 +69,8 @@ if num3 % 1 == 0:
     print(f"{num1} e {num2} são múltiplos!")
 else:
     print(f"{num1} e {num2} não são múltiplos")
+
+print()
 
 #EXERCÍCIO 06
 
@@ -91,6 +99,8 @@ elif caractere == "/":
 elif caractere != "+" or "-" or "*" or "/":
     print("ERRO")
 
+print()
+
 #EXERCÍCIO 07
 
 print("---Saiba se seu voto é obrigatório em 2026---")
@@ -105,6 +115,8 @@ elif ano_nascimento <= 2007 and ano_nascimento >= 1956:
 
 elif ano_nascimento < 1956:
     print("Seu voto não é obrigatório")
+
+print()
 
 #EXERCÍCIO 08
 
@@ -136,6 +148,8 @@ print(f"Salário antes do reajuste: {salario_antes:.2f}")
 print(f"Porcentagem do reajuste: {porcentagem}")
 print(f"Aumento após reajuste: {aumento:.2f}")
 print(f"Salário depois do reajuste: {salario_depois:.2f}")
+
+print()
 
 #EXERCÍCIO 09
 
@@ -189,6 +203,8 @@ print(f"O peso do caminhão em quilos (kg) é de: {conversao_peso}kg")
 print(f"O preço da carga sem imposto é de: R${preco_final_sem_imposto()}")
 print(f"O valor do imposto é de {imposto * 100}% que do preço da carga totaliza: R${preco_imposto}")
 print(f"O valor final da carga é de: R${preco_final_com_imposto} ")
+
+print()
 
 #EXERCÍCIO 10
 

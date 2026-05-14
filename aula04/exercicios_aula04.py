@@ -16,12 +16,16 @@ if exibicao == "n":
 if exibicao != "s" and exibicao != "n":
     print("---ERRO---")
 
+print()
+
 #EXERCÍCIO 02
 
 print("---Contador de 10 em 10---")
 
 for i in range(0, 101, 10):
     print(i)
+
+print()
 
 #EXERCÍCIO 03
 
@@ -32,6 +36,8 @@ numero = float(input("Digite seu número: "))
 for i in range(0, 26):
     resultado = numero * i
     print(f"{numero} x {i} = {resultado}")
+
+print()
 
 #EXERCÍCIO 04
 
@@ -46,6 +52,8 @@ while contador < 5:
     contador += 1
 
 print(f"A soma é: {soma}")
+
+print()
 
 #EXERCÍCIO 05
 
@@ -65,6 +73,8 @@ while contador < 5:
 
 print(f"O maior valor digitado foi: {maior}")
 
+print()
+
 #EXERCÍCIO 06
 
 print("---Achando os Pares---")
@@ -77,6 +87,8 @@ for i in range(2, numero + 1):
 
 if numero == numero < 0:
     print("ERRO")
+
+print()
 
 #EXERCÍCIO 07
 
@@ -95,6 +107,8 @@ for i in range(1, numero + 1):
 
 print(f"A soma de 1 até {numero} é: {soma}")
 
+print()
+
 #EXERCÍCIO 08
 
 print("---Exibindo Divisores---")
@@ -104,6 +118,8 @@ num = int(input("Até qual número você deseja exibir os divisores? "))
 for divisores in range(1, num + 1):
     if num % divisores == 0:
         print(divisores)
+
+print()
 
 #EXERCÍCIO 09
 
