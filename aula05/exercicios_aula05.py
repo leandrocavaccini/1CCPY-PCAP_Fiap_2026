@@ -1,12 +1,14 @@
 #EXERCÍCIO 01
 
+print("---Vetor de Quantidade de Posições Desejadas com Números Aleatorios---")
+
 import random
 
-numero_posicoes = int(input("Digite o número de posições que deseja no array: "))
+numero_posicoes = int(input("Digite o número de posições que deseja no vetor: "))
 
 while numero_posicoes <= 0:
     print("O número precisa ser inteiro, positivo e diferente de 0")
-    numero_posicoes = int(input("Digite o número de posições que deseja no array: "))
+    numero_posicoes = int(input("Digite o número de posições que deseja no vetor: "))
     continue
 
 vetor = []
