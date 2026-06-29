@@ -1,11 +1,11 @@
 #EXERCÍCIO 04
 
-tamanho_vetor = int(input("Digite o número de indices no vetor: "))
+tamanho_vetor = int(input("Digite o número de índices no vetor: "))
 print()
 
 while tamanho_vetor <= 0:
     print("Digite um número inteiro e positivo!\n")
-    tamanho_vetor = int(input("Digite o número de indices no vetor: "))
+    tamanho_vetor = int(input("Digite o número de índices no vetor: "))
     print()
 
 vetor_numeros = []
