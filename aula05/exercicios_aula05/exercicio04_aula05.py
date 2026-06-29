@@ -11,17 +11,9 @@ while tamanho_vetor <= 0:
 vetor_numeros = []
 
 for i in range(tamanho_vetor):
-    vetor_vetor_numeros = []
     numero = int(input(f"Número na {i + 1}º posição: "))
-    vetor_vetor_numeros.append(numero)
-    vetor_numeros.append(vetor_vetor_numeros)
-
-somatorio = 0
-
-for posicao in vetor_numeros:
-    for soma in posicao:
-        somatorio += soma
+    vetor_numeros.append(numero)
 
 print()
 
-print(f"O somatório dos números no vetor é: {somatorio}")
+print(f"O somatório dos números no vetor é: {sum(vetor_numeros)}")
