@@ -1,5 +1,7 @@
 #EXERCÍCIO 04
 
+print("\n---Criando um Vetor para Somar seus Índices---\n")
+
 tamanho_vetor = int(input("Digite o número de índices no vetor: "))
 print()
 
