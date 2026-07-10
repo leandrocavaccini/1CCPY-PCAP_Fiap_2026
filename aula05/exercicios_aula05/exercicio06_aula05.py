@@ -1,4 +1,4 @@
-# EXERCÍCIO 06
+#EXERCÍCIO 06
 
 print("\n---Trocando Posições de um Vetor---\n")
 
