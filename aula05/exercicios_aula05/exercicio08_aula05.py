@@ -10,7 +10,7 @@ for i in range(0, 3):
     matriz_linhas_A = []
     matriz_A.append(matriz_linhas_A)
     for j in range(0, 4):
-        matriz_linhas_A.append(random.randint(1, 10))
+        matriz_linhas_A.append(random.randint(-10, 10))
 
 matriz_B = []
 
@@ -18,7 +18,7 @@ for i in range(0, 3):
     matriz_linhas_B = []
     matriz_B.append(matriz_linhas_B)
     for j in range(0, 4):
-        matriz_linhas_B.append(random.randint(1, 10))
+        matriz_linhas_B.append(random.randint(-10, 10))
 
 matriz_C = []
 
