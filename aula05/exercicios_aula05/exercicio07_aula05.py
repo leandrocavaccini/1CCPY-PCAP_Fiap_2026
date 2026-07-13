@@ -10,7 +10,7 @@ for i in range(0, 3):
     matriz_linhas = []
     matriz.append(matriz_linhas)
     for j in range(0, 4):
-        matriz_linhas.append(random.randint(1, 10))
+        matriz_linhas.append(random.randint(-10, 10))
 
 print("Matriz linear:\n")
 print(matriz)
